@@ -2,7 +2,7 @@
 
   <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="frontendmentor" width="80">
 
-  <h2 align="center">Mutlti Step Form Solution</h2>
+  <h2 align="center">News HomePage Solution</h2>
   <p align="center">
     <a href="https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl"><strong>Frontend Mentor Challenge</strong></a>
     <br />
