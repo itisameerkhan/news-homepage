@@ -7,7 +7,7 @@
     <a href="https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://news-homepage-frontendmentor-1.vercel.app">View Demo</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/itisameerkhan/news-homepage/issues">Report Bug</a>
     &nbsp;·&nbsp;
@@ -24,7 +24,7 @@
 
   <!-- Status -->
   <a href="#">
-    <img src="https://img.shields.io/badge/Status-Ongoing-f05032?style=for-the-badge" alt="Status Completed">
+    <img src="https://img.shields.io/badge/Status-Completed-green?style=for-the-badge" alt="Status Completed">
   </a> &nbsp;&nbsp;&nbsp;
 
   <!-- Difficulty -->
@@ -49,11 +49,11 @@
 
 ## **Links**
 
-<!-- - |||
+- |||
   | :----- | :----- |
-  | Solution URL: | [MULTI STEP FORM 🎯 [ REACT - CSS - MUI ]]() |
-  | Live Site URL: | [https://multi-step-form-frontendmentor-1.netlify.app](https://multi-step-form-frontendmentor-1.netlify.app) |
-  ||| -->
+  | Solution URL: | [NEWS HOME PAGE🎯 [ REACT - CSS ]]() |
+  | Live Site URL: | [https://news-homepage-frontendmentor-1.vercel.app](https://news-homepage-frontendmentor-1.vercel.app) |
+  |||
 
 <br>
 
