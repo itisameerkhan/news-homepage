@@ -1,42 +1,49 @@
-#root {
-  max-width: 1280px;
+@font-face 
+{
+  font-family: 'inter-bold';
+  src: url('../assets/fonts/static/Inter-Bold.ttf');
+}
+@font-face 
+{
+  font-family: 'inter-extrabold';
+  src: url('../assets/fonts/static/Inter-ExtraBold.ttf');
+}
+@font-face 
+{
+  font-family: 'inter-regular';
+  src: url('../assets/fonts/static/Inter-Regular.ttf');
+}
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+:root 
+{
+  width: 100vw;
+}
+.app-container
+{
+  width: 90%;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 1130px;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.show-div 
+{
+  position: fixed;
+  left:0;
+  top:0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.5;
+  display: none;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width:770px)
+{
+  .show-div
+  {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
