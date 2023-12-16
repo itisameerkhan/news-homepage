@@ -92,6 +92,12 @@
 {
     background-color: black;
 }
+.burger-menu-show
+{
+    position: fixed;
+    top:25px;
+    right: 20px;
+}
 @media screen and (max-width: 1220px)
 {
     .main-container 

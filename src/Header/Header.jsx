@@ -17,7 +17,7 @@ const Header = ({show, setShow}) => {
                 </ul>
                 <div className="burger-menu-items">
                     <div 
-                        className={`burger-menu`}
+                        className={`burger-menu ${show ? 'burger-menu-show' : 'none'}`}
                         onClick={() => setShow(!show)}>
                         <div className={`menu-line ${show ? 'line-one-open' : 'line-one-close'}`}></div>
                         <div className={`menu-line ${show ? 'line-two-open' : 'line-two-close'}`}></div>
