@@ -63,7 +63,7 @@
   | :-----: |
   |  <b>Overall score 98.6% for Both Mobile & Desktop</b><br>(Below score is for mobile devices) |
   | |
-  | <img src='./images/pagespeed-insights-score.svg' alt='Scoreboard'> |
+  | <img src='./assets/images/result.png' alt='Scoreboard'> |
   | |
   | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-news-homepage-frontendmentor-1-vercel-app/7xxh0jt2qg?form_factor=desktop) to get live score |
   ||
