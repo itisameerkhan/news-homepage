@@ -1,0 +1,135 @@
+.main-container 
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 'A A A A D D'
+                         'A A A A D D' 
+                         'B B C C D D';
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:20px;
+    height: 70vh;
+}
+.main-left-upper
+{
+    background-image: url('../../assets/images/image-web-3-desktop.jpg');
+    /* height: 300px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    grid-area: A;
+}
+.main-left-lower-left
+{
+    grid-area: B;
+    /* width: 300px; */
+}
+.main-left-lower-left h1 
+{
+    font-family: 'inter-extrabold';
+    font-size: 3.5rem;
+}
+.main-left-lower-right
+{
+    grid-area: C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-left-lower-right p
+{
+    font-family: 'inter-regular';
+    color:rgb(89, 85, 85);
+    line-height: 30px;
+}
+.main-right
+{
+    grid-area: D;
+    background-color: #00001A;
+    color:white;
+    /* width: 350px; */
+    height: 100%;
+    padding:20px;
+    justify-content: space-around;
+}
+.main-right .new
+{
+    font-family: 'inter-bold';
+    color:#E9AB53;
+}
+.main-right-inner 
+{
+    border-bottom: 1px solid #C5C6CE;
+}
+.main-right-inner h2 
+{
+    font-family: 'inter-bold';
+    padding:20px 0 5px 0;
+    font-size: 18px;
+}
+.main-right-inner p 
+{
+    font-family: 'inter-regular';
+    padding:5px 0 30px 0;
+    color:#C5C6CE;
+    line-height: 22px;
+}
+.main-left-lower-right button
+{
+    background-color: #F15E50;
+    border:none;
+    padding: 15px 30px;
+    color:white;
+    font-family: 'inter-bold';
+    letter-spacing: 4px;
+    width: 180px;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+.main-left-lower-right button:hover 
+{
+    background-color: black;
+}
+@media screen and (max-width: 1220px)
+{
+    .main-container 
+    {
+        grid-template-areas: 'A A A D D D'
+                             'A A A D D D'
+                             'B B B D D D'
+                             'C C C D D D';
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+    .main-left-lower-left h1
+    {
+        font-size: 2.5rem;
+    }
+    .main-left-lower-right button 
+    {
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width:770px)
+{
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+    .main-left-upper 
+    {
+        background-image: url('../../assets/images/image-web-3-desktop.jpg');
+        height: 40vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+    }
+}
