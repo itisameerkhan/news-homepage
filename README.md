@@ -57,19 +57,6 @@
 
 <br>
 
-## Pagespeed Insights Score:
-  
-- ||
-  | :-----: |
-  |  <b>Overall score 98.6% for Both Mobile & Desktop</b><br>(Below score is for mobile devices) |
-  | |
-  | <img src='./assets/images/result.png' alt='Scoreboard'> |
-  | |
-  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-news-homepage-frontendmentor-1-vercel-app/7xxh0jt2qg?form_factor=desktop) to get live score |
-  ||
-
-<br>
-
 ## The challenge
 
 Your challenge is to build out this news website homepage and get it looking as close to the design as possible.
