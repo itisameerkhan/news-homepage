@@ -68,6 +68,8 @@
     font-family: 'inter-bold';
     padding:20px 0 5px 0;
     font-size: 18px;
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
 }
 .main-right-inner p 
 {
@@ -97,6 +99,10 @@
     position: fixed;
     top:25px;
     right: 20px;
+}
+.main-right-inner h2:hover 
+{
+    color:#E9AB53;
 }
 @media screen and (max-width: 1220px)
 {
